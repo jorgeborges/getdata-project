@@ -8,9 +8,9 @@ For the detailed description of the data set please see the Code Book: https://g
 ### Running the Script
 1. Clone this repository
 2. In R Studio, install the R package **reshape2**
-3. Set the working directory to the directory where the repo was cloned
+3. Set the working directory to the directory where the repo was cloned ```setwd('/path/to/project')```
 4. Source the ```run_analysis.R``` file
-5. Run the analysis to generate the tidy dataset by running in R Studio: ```getdata.run_analysis('/path/to/project')``` where /path/to/project is your working directory
+5. Run the analysis to generate the tidy dataset by running this function in R Studio: ```getdata.run_analysis()```
 
 After waiting a couple of minutes, the script will let you know when its done. The Tidy Data Set should have been saved to **getdata_tidy_set.txt**
 

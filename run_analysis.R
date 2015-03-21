@@ -4,9 +4,9 @@ if (!require("reshape2")) {
 
 require("reshape2")
 
-getdata.run_analysis <- function(working.path) {
+getdata.run_analysis <- function() {
     print("Please wait, preparing tidy dataset...")
-    setwd(working.path)
+    working.path <- getwd()
     
     # Gets the data sets for training and testing
     training.set <- getdata.load_dataset('train')

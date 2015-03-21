@@ -23,7 +23,7 @@ Given the explanation of the original dataset, the purpose of this script is to 
 * Only contains the measurements on the mean and standard deviation for each measurement
 * The final measurements are actually the average of each variable for each activity and each subject
 
-## The Data
+### The Data
 The final result is a data set that inlcudes the following columns:
 * 'subject'; Unit: Numeric Identifier. The subject being measure, represented by a number
 * 'activity'; Unit: Qualitative Factor. The activity the subject was performing when data was being collected, can be: walking, walking_upstairs, walking_downstairs, sitting, standing, laying
@@ -41,7 +41,7 @@ The final result is a data set that inlcudes the following columns:
 "fBodyGyro_mean_Z"          "fBodyGyro_std_X"           "fBodyGyro_std_Y"           "fBodyGyro_std_Z"           "fBodyAccMag_mean"          "fBodyAccMag_std"
 "fBodyBodyAccJerkMag_mean"  "fBodyBodyAccJerkMag_std"   "fBodyBodyGyroMag_mean"     "fBodyBodyGyroMag_std"      "fBodyBodyGyroJerkMag_mean" "fBodyBodyGyroJerkMag_std"
 
-## Transformations Applied
+### Transformations Applied
 1. The train and test sets are loaded separately, for each set we do the following
 2. Load the data regarding the subjects
 3. Load the data regarding the activity performed, these are turned into a 6 level factor with descriptive names
